@@ -1,0 +1,122 @@
+.product{
+    margin:5rem 4rem;
+}
+
+.first-pro{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.sec-pro{
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.pro-text{
+    width: 45%;
+    text-align: start;
+    font-size: 1.2rem;
+}
+
+.pro-text h1{
+    font-family: 'Times New Roman', serif;
+    color: rgb(3, 3, 65);
+    font-size: 4rem;
+}
+
+.pro-text p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Times New Roman', serif;
+    font-size: 1.5rem;
+}
+
+
+.image {
+    position: relative;
+    height: 60vh;
+    width: 45%;
+    overflow: hidden;  
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+
+}
+
+.image:hover img{
+    transform: scale(1.1); 
+}
+
+.detail{
+    color: goldenrod;
+    display: block;
+    font-size: medium;
+    padding: 0.6rem 0rem;
+    border-radius: 6px;
+    font-size: 1.5rem;
+}
+
+
+
+@media screen and (max-width: 850px){
+    .product{
+        margin: 4rem 1rem;
+    }
+    
+    .first-pro{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 4rem;
+    }
+    
+    .sec-pro{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 4rem;
+    }
+    
+    .pro-text{
+        width: 100%;
+        text-align: start;
+        font-size: 1rem;
+    }
+    
+    .pro-text h1{
+        font-family: 'Times New Roman', serif;
+        color: rgb(3, 3, 65);
+    }
+    
+    .pro-text p{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-family: 'Times New Roman', serif;
+    }
+    
+
+    .image {
+        position: relative;
+        height: 80vh;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    /* .sec-pro{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 3.5rem;
+    } */
+}
